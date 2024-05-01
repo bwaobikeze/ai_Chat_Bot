@@ -5,6 +5,12 @@ Database as a service using [Neo4j](https://neo4j.com/docs/getting-started)
 ## Requirements
 
 * [Docker](https://www.docker.com/products/docker-desktop/)
+* [neo4j account](https://neo4j.com/cloud/platform/aura-graph-database/?ref=docs-nav-get-started)
+
+## configuration
+* navigate to [./server](./server)
+* create a .env file
+* add the following environment variables to the .env file: CONNECTION_URL = <add_your_neo4j_connection_url>, USERNAME = <add_your_neo4j_username>, PASSWORD = <add_your_neo4j_password>
 
 ## Start
 
@@ -12,7 +18,7 @@ To start this system, follow the steps below.
 
 * navigate to [./scripts](./scripts)
 * execute the [start_server.sh](./scripts/start_servers.sh) script
-* run a http get request to localhost:8081
+* run a HTTP post request to localhost:8081 with the following body: {"query":"<your_cypher_query>"}
 
 ## Components
 
