@@ -126,6 +126,10 @@ Write a bash script(s) that will collect benchmarking data for 100
 queries. Each query should be run 100 times and averages should be
 computed.
 
+To start this system, follow the steps below.
+
+* navigate to [./scripts](./scripts)
+* execute the [benchmark.sh](./scripts/benchmark.sh) script
 
 ## Software
 
