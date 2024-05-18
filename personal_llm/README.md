@@ -11,6 +11,9 @@ A portable CPU based llm using docker and ollama.
 2. Navigate to project root directory and run ```docker-compose up -d```
 3. Visit [localhost:8282](http://localhost:8282/) on a browser
 
+#### Stop
+1. Navigate to project root directory and run ```docker-compose down --volumes```
+
 #### Resources
 - [ollama models](https://ollama.com/library?sort=popular)
 
