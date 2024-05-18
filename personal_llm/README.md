@@ -19,3 +19,7 @@ A portable CPU based llm using docker and ollama.
 #### Windows trouble shoot
 - [Install Windows Subsystem for Linux(wsl)](https://learn.microsoft.com/en-us/windows/wsl/install)
 - [Enable virtualization on windows](https://learn.microsoft.com/en-us/windows/wsl/troubleshooting#error-0x80370102-the-virtual-machine-could-not-be-started-because-a-required-feature-is-not-installed)
+
+#### Mac trouble shooting
+- [Change docker desktop settings on mac](https://docs.docker.com/desktop/settings/mac/#namespaces)
+- [Docker file sharing](https://docs.docker.com/desktop/settings/mac/?uuid=51156F3F-7CDF-494C-B5D6-B96B2060A073#file-sharing)
