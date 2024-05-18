@@ -1,9 +1,8 @@
 #### Personal llm
-A portable CPU based llm using docker and ollama.
+A portable CPU based llm using docker and ollama. 
 
 #### Requirements
 - [Docker](https://www.docker.com/products/docker-desktop/)
-- [ollama](https://ollama.com/download/)
 
 #### Start
 1. Start the docker daemon
