@@ -1,5 +1,5 @@
 #### Personal llm
-A local containerized llm using [docker](https://www.docker.com/), [ollama](https://ollama.com/) and [openUI](https://docs.openwebui.com/). 
+A portable containerized llm hosted locally using [docker](https://www.docker.com/), [ollama](https://ollama.com/) and [openUI](https://docs.openwebui.com/). The llm can be ran on CPU and GPU enabled systems.
 
 #### Requirements
 - [Docker](https://www.docker.com/products/docker-desktop/)
@@ -16,7 +16,6 @@ A local containerized llm using [docker](https://www.docker.com/), [ollama](http
 1. Navigate to project root directory and run ```docker-compose down --volumes``` to turn off containers and delete volumes
 
 #### Resources
-- 
 - Docker daemon start [guide](https://docs.docker.com/config/daemon/start/)
 
 #### Troubleshooting
