@@ -9,8 +9,10 @@ A portable containerized llm hosted locally using [docker](https://www.docker.co
 2. Navigate to project root directory and run ```docker-compose up -d```
 3. Visit [localhost:8282](http://localhost:8282/) on a browser
 4. Sign up for an account
-5. Search and download [ollama models](https://ollama.com/library?sort=popular)
-6. Select model and  prompt away
+5. Navigate to and click on "Select a model" in the top left section of the screen
+6. Type in the name of the [ollama model](https://ollama.com/library?sort=popular) you want to use
+7. Click on "Pull <model_name> from Ollama.com"
+8. Once the model is done downloading, select a model and prompt away
 
 #### Stop steps
 1. Navigate to project root directory and run ```docker-compose down --volumes``` to turn off containers and delete volumes
