@@ -1,6 +1,4 @@
 # Using docker desktop version 4.30.0
-version: '0.1'
-
 services:
   ollama:
     image: ollama/ollama
