@@ -11,5 +11,5 @@ def LLMChatFunction(user_input, history):
     except Exception as e:
         return e
     
-demo = gr.ChatInterface(LLMChatFunction).launch()
+demo = gr.ChatInterface(LLMChatFunction).launch(server_name="0.0.0.0", server_port=7860)
 
