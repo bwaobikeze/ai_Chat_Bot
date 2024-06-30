@@ -1,0 +1,31 @@
+services:
+  ollama:
+    image: ollama/ollama
+    container_name: ollama
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+      #- ./ollama-config.json:/root/.ollama/config.json
+    restart: unless-stopped
+    # Uncomment to enable NVIDIA based GPU usage
+    # ======= Enable GPU Usage =======
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - capabilities: ["gpu"]
+    # ======= Enable GPU Usage =======
+  gradio:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    #container_name: gradio
+    ports:
+      - "7860:7860"
+    restart: unless-stopped
+volumes:
+  ollama:
+    
+
+        
