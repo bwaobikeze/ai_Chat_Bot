@@ -4,6 +4,8 @@ services:
     container_name: ollama
     ports:
       - "11434:11434"
+    networks:
+      - my_network
     volumes:
       - ollama:/root/.ollama
       #- ./ollama-config.json:/root/.ollama/config.json
@@ -23,9 +25,14 @@ services:
     #container_name: gradio
     ports:
       - "7860:7860"
+    networks:
+      - my_network
     restart: unless-stopped
 volumes:
   ollama:
+  gradio:
     
-
+networks:
+  my_network:
+    driver: bridge
         
