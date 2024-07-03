@@ -4,7 +4,7 @@ WORKDIR /ai_chat
 
 COPY . .
 
-RUN pip install gradio ollama
+RUN pip install -r requirements.txt
 
 EXPOSE 7860
 
