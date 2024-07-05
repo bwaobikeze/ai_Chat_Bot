@@ -12,8 +12,8 @@ This project uses Docker to containerize a Python application that leverages the
 - `.dockerignore`: Specifies files to be ignored by Docker.
 - `docker-compose.yaml`: Docker Compose configuration file.
 - `Dockerfile`: Instructions to build the Docker image.
-- `greet.py`: Python script to run the application.
-- `Requirements.txt`: Python dependencies.
+- `ai_chatbot.py.py`: Python script to run the application.
+- `requirements.txt`: Python dependencies.
 
 ## Setup Instructions
 
