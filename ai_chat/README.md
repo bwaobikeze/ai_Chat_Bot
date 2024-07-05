@@ -4,7 +4,7 @@ This project uses Docker to containerize a Python application that leverages the
 
 ## Prerequisites
 
-- Docker installed on your machine
+- [Docker](https://www.docker.com/) installed on your machine
 - An internet connection to pull the model from Ollama
 
 ## Project Files
