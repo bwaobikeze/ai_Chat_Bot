@@ -13,7 +13,7 @@ This project uses Docker to containerize a Python application that leverages the
 - `docker-compose.yaml`: Docker Compose configuration file.
 - `Dockerfile`: Instructions to build the Docker image.
 - `ai_chatbot.py.py`: Python script to run the application.
-- `requirements.txt`: Python dependencies.
+- `Requirements.txt`: Python dependencies.
 
 ## Setup Instructions
 
@@ -51,4 +51,4 @@ This project uses Docker to containerize a Python application that leverages the
 - `docker-compose.yaml`: Defines services, networks, and volumes for the Docker Compose setup.
 - `Dockerfile`: Contains instructions to set up the Docker image, including installing dependencies and copying project files.
 - `ai_chatbot.py`: Python script that sets up and runs the Gradio interface using the Ollama model.
-- `requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
+- `Requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
