@@ -4,8 +4,8 @@ WORKDIR /ai_chat
 
 COPY . .
 
-RUN pip install ollama gradio
+RUN pip install -r requirements.txt
 
 EXPOSE 7860
 
-CMD ["python", "greet.py"]
+CMD ["python","-u" ,"ai_chatbot.py"]

@@ -32,28 +32,19 @@ This project uses Docker to containerize a Python application that leverages the
    ```sh
    docker-compose up --build
    
-3. **Pull the Model from Ollama**
-
-   After starting the application, you need to pull the model from Ollama. Use the following command with the desired model (e.g., llama3):
-
-   ```sh
-   docker exec -it ollama ollama pull llama3
-
-
-1. **Access the Application**
+3. **Access the Application**
 
    First, clone this repository to your local machine:
 
    Once the application is running and the model is pulled, you can access it through your web browser at http://localhost:7860.
+   
+4. **Select model from the "Select model" dropdown**
 
-1. **Clone the Repository**
+   After starting the application, you need to pull the model from Ollama.
+   Click on the dropdown and select your model.
 
-   First, clone this repository to your local machine:
-
-   ```sh
-   git clone <repository_url>
-   cd <repository_directory>
-
+5. **use AI chat bot**
+   Begin using the AI chat bot.
 
 ## Project Structure
 
