@@ -34,8 +34,6 @@ This project uses Docker to containerize a Python application that leverages the
 
 3. **Access the Application**
 
-   First, clone this repository to your local machine:
-
    Once the application is running and the model is pulled, you can access it through your web browser at http://localhost:7860.
    
 4. **Select model from the "Select model" dropdown**
@@ -52,5 +50,5 @@ This project uses Docker to containerize a Python application that leverages the
 - `.dockerignore`: Contains patterns to ignore files and directories in Docker builds.
 - `docker-compose.yaml`: Defines services, networks, and volumes for the Docker Compose setup.
 - `Dockerfile`: Contains instructions to set up the Docker image, including installing dependencies and copying project files.
-- `greet.py`: Python script that sets up and runs the Gradio interface using the Ollama model.
-- `Requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
+- `ai_chatbot.py`: Python script that sets up and runs the Gradio interface using the Ollama model.
+- `requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
