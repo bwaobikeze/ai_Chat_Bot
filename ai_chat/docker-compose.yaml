@@ -12,11 +12,11 @@ services:
     restart: unless-stopped
     # Uncomment to enable NVIDIA based GPU usage
     # ======= Enable GPU Usage =======
-    deploy:
-      resources:
-        reservations:
-          devices:
-            - capabilities: ["gpu"]
+    # deploy:
+    #   resources:
+    #     reservations:
+    #       devices:
+    #         - capabilities: ["gpu"]
     # ======= Enable GPU Usage =======
   gradio:
     build:

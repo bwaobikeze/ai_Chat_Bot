@@ -13,11 +13,13 @@ def LLMChatFunction(user_input, model_name, history):
         return history
         
     except Exception as e:
-        return e
+        error_message = f"Error: {str(e)}"
+        history.append((user_input, error_message))
+        return history
     
 #Defines a function that returns the list of available models 
 def ListOfmodels():
-    available_models = ['llama3']
+    available_models = ['llama3', 'llava']
     return available_models
 
 
@@ -42,10 +44,9 @@ with gr.Blocks() as demo:
     
 
     available_models = ListOfmodels()
-    model_dropdown = gr.Dropdown(available_models, label="Select Model")
+    model_dropdown = gr.Dropdown(available_models, label="Select Model", )
 
-
-    PullOllamaModel(model_dropdown)
+    model_dropdown.change(PullOllamaModel, inputs=[model_dropdown])
 
     chat_history = gr.State([])
     
