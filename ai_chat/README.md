@@ -31,7 +31,7 @@ This project uses Docker to containerize a Python application that leverages the
 
    ```sh
    docker-compose up --build
-   
+
 3. **Access the Application**
 
    First, clone this repository to your local machine:
@@ -44,6 +44,7 @@ This project uses Docker to containerize a Python application that leverages the
    Click on the dropdown and select your model.
 
 5. **use AI chat bot**
+
    Begin using the AI chat bot.
 
 ## Project Structure
