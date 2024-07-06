@@ -7,13 +7,13 @@ This project uses Docker to containerize a Python application that leverages the
 - [Docker](https://www.docker.com/) installed on your machine
 - An internet connection to pull the model from Ollama
 
-## Project Files
+## Project Structure
 
-- `.dockerignore`: Specifies files to be ignored by Docker.
-- `docker-compose.yaml`: Docker Compose configuration file.
-- `Dockerfile`: Instructions to build the Docker image.
-- `ai_chatbot.py.py`: Python script to run the application.
-- `Requirements.txt`: Python dependencies.
+- `.dockerignore`: Contains patterns to ignore files and directories in Docker builds.
+- `docker-compose.yaml`: Defines services, networks, and volumes for the Docker Compose setup.
+- `Dockerfile`: Contains instructions to set up the Docker image, including installing dependencies and copying project files.
+- `ai_chatbot.py`: Python script that sets up and runs the Gradio interface using the Ollama model.
+- `Requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
 
 ## Setup Instructions
 
@@ -44,11 +44,3 @@ This project uses Docker to containerize a Python application that leverages the
 5. **use AI chat bot**
 
    Begin using the AI chat bot.
-
-## Project Structure
-
-- `.dockerignore`: Contains patterns to ignore files and directories in Docker builds.
-- `docker-compose.yaml`: Defines services, networks, and volumes for the Docker Compose setup.
-- `Dockerfile`: Contains instructions to set up the Docker image, including installing dependencies and copying project files.
-- `ai_chatbot.py`: Python script that sets up and runs the Gradio interface using the Ollama model.
-- `Requirements.txt`: Lists the Python packages required for the project (`gradio` and `ollama`).
